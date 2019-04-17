@@ -1,0 +1,33 @@
+testinfo:
+    - id: tk001
+      title: 购买【红心咸鸭蛋30枚】
+      execute: 75.0
+testcase:
+    -
+      element_info: 红心咸鸭蛋30枚
+      find_type: text
+      operate_type: click
+    -
+      element_info: 立即购买
+      find_type: text
+      operate_type: click
+    -
+      element_info: //*[@class='android.widget.Button'][2]
+      find_type: xpath
+      operate_type: click
+##    -
+#      element_info: 确定
+#      find_type: text
+#      operate_type: click
+    -
+      element_info: 提交订单
+      find_type: text
+      operate_type: click
+    -
+      element_info: 没有优惠券
+      find_type: text
+      operate_type: click
+    -
+      element_info: 订单详情
+      find_type: text
+      operate_type: click
